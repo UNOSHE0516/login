@@ -13,6 +13,9 @@ import java.sql.SQLException;
 	 Connection con = null;
 
 	try{
+
+
+
 	 Class.forName(driverName);
 	 con = (Connection) DriverManager.getConnection(url,user,password);
 
